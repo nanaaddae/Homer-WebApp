@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: red;
+}
+
+p
+{
+	color : red;
+}
+
+h1, h2, h3,h4,h5 {
+  color: red;
+}
+
+#myDiv {
+  text-align: center;
+
+}
+
+#adminDiv
+{
+	  text-align: center;
+	
+}
+
+#heroDiv
+{
+text-align: center;
+
+} 
+
+/* #hrDiv
+{
+	text-align: center;
+	
+	display: inline-block;
+	
+} */
