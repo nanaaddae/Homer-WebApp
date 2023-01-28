@@ -451,7 +451,8 @@ public class MainController
             try {
                 // Perform S3 file upload
             	AmazonS3 s3client = AmazonS3ClientBuilder.standard()
-                        .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials("AKIAZA7K6B2BQJOOC27I", "8+Jg7v9x7LtZ7Pdx+HlgytZNM/YUlwnFOnFOcpQd")))
+                        .withCredentials(new 
+					 StaticCredentialsProvider(new BasicAWSCredentials("*********************", "***********************************")))
                         .withRegion(Regions.US_EAST_1)
                         .build();
             	
